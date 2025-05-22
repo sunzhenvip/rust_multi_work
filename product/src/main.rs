@@ -1,3 +1,6 @@
+use mylib;
+
 fn main() {
-    println!("Hello, world!");
+    let ff = mylib::add(10, 10);
+    println!("Hello, world! {}", ff);
 }
